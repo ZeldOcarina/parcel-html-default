@@ -1,1 +1,3 @@
-console.log("Hello world buddy");
+if (module.hot) {
+  module.hot.accept();
+}
