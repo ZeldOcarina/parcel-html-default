@@ -1,0 +1,55 @@
+.d-none {
+  display: none !important;
+}
+
+.hidden {
+  visibility: hidden !important;
+}
+
+.color-secondary,
+.text-secondary {
+  color: var(--color-secondary) !important;
+}
+
+.light-primary {
+  color: var(--color-primary-light) !important;
+}
+
+.image-bw {
+  filter: grayscale(100%);
+  opacity: 0.6;
+}
+
+.lead {
+  font-family: $title-font;
+}
+
+.hide-mobile {
+  @include respond(phone-land) {
+    display: none;
+  }
+}
+
+.hide-desktop {
+  display: none;
+
+  @include respond(phone-land) {
+    display: block;
+  }
+}
+
+.invisible {
+  opacity: 0;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.red {
+  color: red !important;
+}
+
+.green {
+  color: green !important;
+}

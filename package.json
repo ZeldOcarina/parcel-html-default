@@ -12,11 +12,13 @@
   "devDependencies": {
     "@parcel/babel-plugin-transform-runtime": "*",
     "@parcel/babel-preset-env": "*",
-    "@parcel/transformer-sass": "^2.0.0-beta.3.1",
-    "parcel": "^2.0.0-beta.3.1",
+    "@parcel/transformer-sass": "^2.4.1",
+    "parcel": "^2.4.1",
     "sass": "^1.34.0"
   },
   "dependencies": {
-    "@babel/runtime": "^7.14.0"
+    "@babel/runtime": "^7.14.0",
+    "bootstrap": "^5.1.3",
+    "normalize.css": "^8.0.1"
   }
 }

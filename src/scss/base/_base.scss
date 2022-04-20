@@ -1,0 +1,94 @@
+html {
+  font-size: 10px;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $body-font;
+  color: $black;
+  font-size: $basic-font-size;
+  font-weight: 200;
+  letter-spacing: 2px;
+  line-height: 1.5;
+  background-color: var(--body-bg-color);
+
+  @include respond(phone-land) {
+    font-size: $mobile-font-size;
+  }
+}
+
+h1 {
+  font-size: $big-title;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $title-font;
+  font-weight: bold;
+  color: var(--black);
+
+  @include respond(phone-land) {
+    font-size: $mobile-title-font-size;
+  }
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: $title-font-size;
+
+  @include respond(iphone-5) {
+    font-size: 2rem;
+  }
+}
+
+h2 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+h3 {
+  font-size: 2rem;
+  text-align: center;
+  color: $black;
+  margin-bottom: 3rem;
+
+  @include respond(iphone-5) {
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+  }
+}
+
+p {
+  letter-spacing: 0.1rem;
+  line-height: 1.5;
+}
+
+section {
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: var(--color-primary);
+  font-family: $body-font;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+hr {
+  border: 1px solid var(--hr-color);
+}
+
+strong {
+  font-weight: 700;
+}

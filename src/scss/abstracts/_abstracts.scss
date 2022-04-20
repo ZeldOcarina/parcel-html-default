@@ -1,0 +1,26 @@
+:root {
+  // COLORS
+  --color-primary: #57a0a8;
+  --color-secondary: #c5ecf0;
+  --black: #4e4e4e;
+  --white: #ffffff;
+  --body-bg-color: #fafafa;
+
+  --cards-shadow: 3px 3px 22px -12px rgba(0, 0, 0, 0.42);
+}
+
+//FONT FAMILY
+$title-font: "Roboto Slab", serif;
+$body-font: "proxima-nova", sans-serif;
+$body-secondary: "Sarabun", sans-serif;
+$bold: 700;
+
+// FONT-SIZES
+$basic-font-size: 1.7rem;
+$mobile-font-size: 1.5rem;
+
+$big-title: 4rem;
+$title-font-size: 3.5rem;
+$mobile-title-font-size: 3rem;
+
+$offset: -30rem;
