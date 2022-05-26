@@ -12,8 +12,11 @@
   "devDependencies": {
     "@parcel/babel-plugin-transform-runtime": "*",
     "@parcel/babel-preset-env": "*",
+    "@parcel/packager-raw-url": "^2.5.0",
     "@parcel/transformer-sass": "^2.4.1",
+    "@parcel/transformer-webmanifest": "^2.5.0",
     "parcel": "^2.4.1",
+    "parcel-plugin-static-files-copy": "^2.6.0",
     "sass": "^1.34.0",
     "sharp": "^0.29.3"
   },
